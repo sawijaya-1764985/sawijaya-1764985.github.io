@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> What is your favorite subject? </title>
+</head>
+<body bgcolor="#E6E6FA">
+
+<h2 style="color:black; font-size: 50px">What is your favorite subject?</h2>
+<img src="sana.gif" style="height: 445px; width: 250px">
+
+	<fieldset>
+		<legend style="color:green; font-size: 25px">My Favorite Subject</legend>
+		<div class="field">
+			<label style="color:green">Favorite Subject</label> 
+			<select name="Subjects">
+				<option value="" selected="true">Choose a Subject</option>
+				<option value="ALGEBRA">ALGEBRA</option>
+				<option value="BIOLOGY">BIOLOGY</option>
+				<option value="CHEMISTRY">CHEMISTRY</option>
+				<option value="MATHEMATICS">MATHEMATICS</option>
+				<option value="PHYSICS">PHYSICS</option>
+				<option value="PSYCHOLOGY">PSYCHOLOGY</option>
+				<option value="STATISTICS">STATISTICS</option>
+			</select>
+		</div>
+		<div class="field">
+			<label style="color:green">How good are you in this subject:</label> 
+			<input type="Favorite Subject" name="Favorite Subject">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend style="color:blue; font-size: 25px">Difficulty of Subject</legend>
+		<div class="field">
+			<label style="color:blue">Is your favorite subject difficult?</label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+		</div>
+			<div class="field">
+			<label style="color:blue" >What would you do to make your subject easier?</label><br>
+			<textarea name="deserve" rows="8" cols="70"></textarea>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend style="color:purple; font-size: 25px">Studying</legend>
+		<div class="field">
+			<label style="color:purple">How often do you study for this subject? (check all that apply)</label>
+			<ul>
+				<li><input type="checkbox" name="position_tp" value="Extremely Often">Extremely Often</li>
+				<li><input type="checkbox" name="position_pt" value="Very Often">Very Often</li>
+				<li><input type="checkbox" name="position_ft" value="Often">Often</li>
+				<li><input type="checkbox" name="position_sl" value="Barely">Barely</li>
+				<li><input type="checkbox" name="position_tp" value="Never Study">Never Study</li>
+			</ul>
+		</div>
+		<div class="field">
+			<label style="color:purple">Hours you spend on studying your favorite subject</label>
+			<table>
+				<tr>
+					<td></td>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<th>From</th>
+					<td><input type="time" size="10" name="su_from"></td>
+					<td><input type="time" size="10" name="mo_from"></td>
+					<td><input type="time" size="10" name="tu_from"></td>
+					<td><input type="time" size="10" name="we_from"></td>
+					<td><input type="time" size="10" name="th_from"></td>
+					<td><input type="time" size="10" name="fr_from"></td>
+					<td><input type="time" size="10" name="sa_from"></td>
+				</tr>
+				<tr>
+					<th>Until</th>
+					<td><input type="time" size="10" name="su_until"></td>
+					<td><input type="time" size="10" name="mo_until"></td>
+					<td><input type="time" size="10" name="tu_until"></td>
+					<td><input type="time" size="10" name="we_until"></td>
+					<td><input type="time" size="10" name="th_until"></td>
+					<td><input type="time" size="10" name="fr_until"></td>
+					<td><input type="time" size="10" name="sa_until"></td>
+				</tr>
+			</table>
+		</div>
+	</fieldset>
+	
+	<fieldset>
+	<legend style="color:red; font-size: 25px">Additional Comments</legend>
+	<div class="field">
+			<label style="color:brown">Why is the subject you chose, your favorite subject?</label><br>
+			<textarea name="deserve" rows="8" cols="70"></textarea>
+		</div>
+	</fieldset>
+	
+	<fieldset>
+		<legend style="color:yellow; font-size: 25px">Personal Information</legend>
+		<div class="field">
+			<label style="color:yellow">Full Name:</label> 
+			<input type="text" name="name">
+		</div>
+		<div class="field">
+			<label style="color:yellow">Gender:</label> 
+			<input type="text" name="gender">
+		</div>
+		<div class="field">
+			<label style="color:yellow">Age:</label> 
+			<input type="text" name="age">
+		</div>
+		<div class="field">
+			<label style="color:yellow">Year Level:</label> 
+			<input type="text" name="year level">
+		</div>
+	</fieldset>
+	
+	<input type="submit" value="Submit form">
+
+</form>
+</body>
+</html>
