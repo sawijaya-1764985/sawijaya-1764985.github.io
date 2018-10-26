@@ -1093,12 +1093,12 @@
 				color: #ffffff;
 			}
 
-			.item header h1, .item header h3, .item header h4, .item header h5, .item header h6 {
+			.item header h1, .item header h2, .item header h3, .item header h4, .item header h5, .item header h6 {
 				color: #ffffff;
 			}
 
 			.item header h2 {
-				background-image: url("fool.jpg")
+				background-image: url("fool.jpg");
 			}
 					
 			.item header blockquote {
