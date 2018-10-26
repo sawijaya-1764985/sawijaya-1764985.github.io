@@ -1097,6 +1097,10 @@
 				color: #ffffff;
 			}
 
+			.item header h2 {
+				background-image: url("fool.jpg")
+			}
+					
 			.item header blockquote {
 				border-left-color: #ffffff;
 			}
