@@ -1096,7 +1096,7 @@
 			.item header h1, .item header h2, .item header h3, .item header h4, .item header h5, .item header h6 {
 				color: #ffffff;
 			}
-					
+
 			.item header blockquote {
 				border-left-color: #ffffff;
 			}
@@ -1135,7 +1135,7 @@
 					width: 100%;
 					height: 100%;
 					background-color: rgba(0, 0, 0, 0.25);
-					background-image: url("overlay.png");
+					background-image: url("images/overlay.png");
 				}
 
 			.item header:hover a {
